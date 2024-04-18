@@ -5,12 +5,6 @@ import java.util.Scanner;
 
 public class FortuneApp {
 	
-	private GapJa_YukChin yukchin;
-	
-	public FortuneApp(GapJa_YukChin yukchin) {
-		this.yukchin=yukchin;
-	}
-	
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         
