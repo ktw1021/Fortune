@@ -220,12 +220,13 @@ public class GapJa {
 	System.out.printf("*시주*\t*일주*\t*월주*\t*연주*%n");
 	//	4개 기둥 위쪽에 천간의 십신 호출
 	GapJa_YukChin.YukChin_Chungan();
+	//	각 천간지지 마다 오행과 음양을 표시 
 	System.out.printf("%s%s%s \t %s%s%s \t %s%s%s \t %s%s%s%n"
 					+ "%s%s%s \t %s%s%s \t %s%s%s \t %s%s%s%n",
-					sigan,sigan_Element,sigan_YinYang,		ilgan,ilgan_Element,ilgan_YinYang,
-					wolgan,wolgan_Element,wolgan_YinYang,	yungan,yungan_Element,yungan_YinYang,
-					siji,siji_Element,siji_YinYang,			ilji,ilji_Element,ilji_YinYang,	
-					wolji,wolji_Element,wolji_YinYang,		yunji,yunji_Element,yunji_YinYang);
+					sigan, sigan_Element, sigan_YinYang,		ilgan, ilgan_Element, ilgan_YinYang,
+					wolgan, wolgan_Element,  wolgan_YinYang,	yungan, yungan_Element, yungan_YinYang,
+					siji, siji_Element, siji_YinYang,			ilji, ilji_Element, ilji_YinYang,	
+					wolji, wolji_Element, wolji_YinYang,		yunji, yunji_Element, yunji_YinYang);
 	
 	
 	GapJa_YukChin.YukChin_jiji(yinYang_lst);

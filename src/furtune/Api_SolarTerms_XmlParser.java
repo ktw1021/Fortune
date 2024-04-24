@@ -45,7 +45,7 @@ public class Api_SolarTerms_XmlParser {
 	    } else {
 	        System.out.println("No items found for the given period.");
 	    }
-
 	    return solarTerms;
+	
 	}
 }
