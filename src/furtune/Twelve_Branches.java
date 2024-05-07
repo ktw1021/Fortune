@@ -3,7 +3,23 @@ package furtune;
 import java.util.ArrayList;
 
 public class Twelve_Branches {
+	//12운성
 	
+	private static ArrayList <String> arr = new ArrayList<>();
+	/**
+	 * @return the arr
+	 */
+	public static ArrayList<String> getArr() {
+		return arr;
+	}
+
+	/**
+	 * @param arr the arr to set
+	 */
+	public static void setArr(ArrayList<String> arr) {
+		Twelve_Branches.arr = arr;
+	}
+
 	public GapJa gapja;
 	
 	public static void Branches() {
@@ -18,7 +34,6 @@ public class Twelve_Branches {
 		String ilji  = GapJa.getIlji();
 		String siji  = GapJa.getSiji();
 		
-		ArrayList <String> arr = new ArrayList<>();
 		
 		arr.add(sigan);	arr.add(ilgan);	arr.add(wolgan); arr.add(yungan);
 		arr.add(siji);	arr.add(ilji);	arr.add(wolji); arr.add(yunji);
@@ -140,7 +155,7 @@ public class Twelve_Branches {
 				else if (arr.get(i+4).equals("축")) {result.add("관대");}
 			}
 		}
+		setArr(arr);
 		System.out.println(result);
-		Another_Sal.Another_SinSal(arr);
 	}
 }

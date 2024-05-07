@@ -25,19 +25,25 @@ public class FortuneApp {
             String result = api_Lunar_Caller.callApi
             		(gapja.inputYear, gapja.inputMonth, gapja.inputDay);
             
-            // 결과를 XmlParser 객체에 전달하여 파싱하고 출력합니다.
+            // 결과를 XmlParser 객체에 전달하여 파싱하고 음력일을 출력합니다.
             Api_Lunar_XmlParser parser = new Api_Lunar_XmlParser();
             parser.parseXmlString(result, gapja.inputHour); // parseXmlString 호출.
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-
+        // 12신살과 올해 신살을 출력합니다. 
     	TwelfthSinSal.Sal();
+    	// 십성의 구조를 분석합니다. 
     	SipSung_Count.Count_SipSung();
+    	// 천간병존이 있다면 출력합니다. 
     	GapJa_Chungan_Side.sideChungan();
+    	// 지지병존이 있다면 출력합니다. 
     	GapJa_Jiji_Side.sideJiji();
+    	// 12운성을 출력합니다. 
     	Twelve_Branches.Branches();
+    	// 나머지 신살을 출력합니다. 
+		Another_Sal.Another_SinSal(Twelve_Branches.getArr());
     	
     	// ApiExplorer 인스턴스 생성 및 API 호출
 //        ApiExplorer apiExplorer = new ApiExplorer();
