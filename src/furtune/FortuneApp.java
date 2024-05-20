@@ -17,7 +17,7 @@ public class FortuneApp {
         System.out.print("일을 입력하세요: ");
         gapja.inputDay = scanner.next();
         System.out.print("시를 입력하세요: ");
-        gapja.inputHour = scanner.nextInt();
+        gapja.inputHour = scanner.nextDouble();
         
         Api_Lunar_Caller api_Lunar_Caller = new Api_Lunar_Caller();
         try {

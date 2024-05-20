@@ -12,7 +12,7 @@ import java.io.StringReader;
 public class Api_Lunar_XmlParser {
 	
 	
-	public void parseXmlString(String xmlStr, int inputHour) throws Exception {
+	public void parseXmlString(String xmlStr, double inputHour) throws Exception {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         InputSource is = new InputSource(new StringReader(xmlStr));

@@ -73,7 +73,7 @@ public class GapJa {
 	}
 	
 	
-	public static void transformer(String lunYear, String lunMonth, String lunDay,int inputHour) {
+	public static void transformer(String lunYear, String lunMonth, String lunDay, double inputHour) {
 
     //	연간
     int chungan1 = Integer.parseInt(lunYear)%10;
@@ -144,7 +144,7 @@ public class GapJa {
 	ilji = String.valueOf(sb.charAt(1));
 	
 	//	시지
-	int si=inputHour;
+	double si=inputHour;
 	if (si>=23 || si<1) {setSiji("자");}	else if (si>=1 && si<3) {setSiji("축");}	else if (si>=3 && si<5) {setSiji("인");}
 	else if (si>=5 && si<7) {setSiji("묘");}	else if (si>=7 && si<9) {setSiji("진");}	else if (si>=9 && si<11) {setSiji("사");}
 	else if (si>=11 && si<13) {setSiji("오");}	else if (si>=13 && si<15) {setSiji("미");}	else if (si>=15 && si<17) {setSiji("신");}

@@ -5,7 +5,7 @@ public class InputDate extends Api_Lunar_XmlParser {
 	String inputYear;
 	String inputMonth;
 	String inputDay;
-	int inputHour;
+	double inputHour;
 	
 	public String getInputYear() {
 		return inputYear;
@@ -25,10 +25,10 @@ public class InputDate extends Api_Lunar_XmlParser {
 	public void setInputDay(String inputDay) {
 		this.inputDay = inputDay;
 	}
-	public int getInputHour() {
+	public double getInputHour() {
 		return inputHour;
 	}
-	public void setInputHour(int inputHour) {
+	public void setInputHour(double inputHour) {
 		this.inputHour = inputHour;
 	}
 	
@@ -36,7 +36,7 @@ public class InputDate extends Api_Lunar_XmlParser {
 		
 	}
 	
-	public InputDate(String inputYear, String inputMonth, String inputDay, int inputHour) {
+	public InputDate(String inputYear, String inputMonth, String inputDay, double inputHour) {
 		super();
 		this.inputYear = inputYear;
 		this.inputMonth = inputMonth;

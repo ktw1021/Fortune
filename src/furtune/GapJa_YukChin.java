@@ -84,7 +84,7 @@ public class GapJa_YukChin {
 				// '화'의 경우,
 				if (element_lst.get(0).equals("火")) {
 					if (element_lst.get(i).equals("土")) {yukchin.add("식신");siksang++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("편재");jaesung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("편재");jaesung++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("편관");gwansung++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("편인");insung++;}
 					}
@@ -93,16 +93,16 @@ public class GapJa_YukChin {
 					if (element_lst.get(i).equals("木")) {yukchin.add("식신");siksang++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("편재");jaesung++;}
 					else if (element_lst.get(i).equals("土")) {yukchin.add("편관");gwansung++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("편인");insung++;}}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("편인");insung++;}}
 				// '목'의 경우,
 				else if (element_lst.get(0).equals("木")) {
 					if (element_lst.get(i).equals("火")) {yukchin.add("식신");siksang++;}
 					else if (element_lst.get(i).equals("土")) {yukchin.add("편재");jaesung++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("편관");gwansung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("편관");gwansung++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("편인");insung++;}
 				}
 				// '금'의 경우,
-				else if (element_lst.get(0).equals("金")) {
+				else if (element_lst.get(0).equals("金")) {
 					if (element_lst.get(i).equals("水")) {yukchin.add("식신");siksang++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("편재");jaesung++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("편관");gwansung++;}
@@ -110,7 +110,7 @@ public class GapJa_YukChin {
 				}
 				// '토'의 경우,
 				else if (element_lst.get(0).equals("土")) {
-					if (element_lst.get(i).equals("金")) {yukchin.add("식신");siksang++;}
+					if (element_lst.get(i).equals("金")) {yukchin.add("식신");siksang++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("편재");jaesung++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("편관");gwansung++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("편인");insung++;}
@@ -121,7 +121,7 @@ public class GapJa_YukChin {
 				// '화'의 경우,
 				if (element_lst.get(0).equals("火")) {
 					if (element_lst.get(i).equals("土")) {yukchin.add("상관");siksang++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("정재");jaesung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("정재");jaesung++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("정관");gwansung++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("정인");insung++;}
 				}
@@ -130,17 +130,17 @@ public class GapJa_YukChin {
 					if (element_lst.get(i).equals("木")) {yukchin.add("상관");siksang++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("정재");jaesung++;}
 					else if (element_lst.get(i).equals("土")) {yukchin.add("정관");gwansung++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("정인");insung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("정인");insung++;}
 				}
 				// '목'의 경우,
 				else if (element_lst.get(0).equals("木")) {
 					if (element_lst.get(i).equals("火")) {yukchin.add("상관");siksang++;}
 					else if (element_lst.get(i).equals("土")) {yukchin.add("정재");jaesung++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("정관");gwansung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("정관");gwansung++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("정인");insung++;}
 				}
 				// '금'의 경우,
-				else if (element_lst.get(0).equals("金")) {
+				else if (element_lst.get(0).equals("金")) {
 					if (element_lst.get(i).equals("水")) {yukchin.add("상관");siksang++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("정재");jaesung++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("정관");gwansung++;}
@@ -148,7 +148,7 @@ public class GapJa_YukChin {
 				}
 				// '토'의 경우,
 				else if (element_lst.get(0).equals("土")) {
-					if (element_lst.get(i).equals("金")) {yukchin.add("상관");siksang++;}
+					if (element_lst.get(i).equals("金")) {yukchin.add("상관");siksang++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("정재");jaesung++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("정관");gwansung++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("정인");insung++;}
@@ -182,7 +182,7 @@ public class GapJa_YukChin {
 				// '화'의 경우,
 				if (element_lst.get(0).equals("火")) {
 					if (element_lst.get(i).equals("土")) {yukchin.add("식신");siksang++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("편재");jaesung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("편재");jaesung++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("편관");gwansung++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("편인");insung++;}
 				}
@@ -191,17 +191,17 @@ public class GapJa_YukChin {
 					if (element_lst.get(i).equals("木")) {yukchin.add("식신");siksang++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("편재");jaesung++;}
 					else if (element_lst.get(i).equals("土")) {yukchin.add("편관");gwansung++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("편인");insung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("편인");insung++;}
 				}
 				// '목'의 경우,
 				else if (element_lst.get(0).equals("木")) {
 					if (element_lst.get(i).equals("火")) {yukchin.add("식신");siksang++;}
 					else if (element_lst.get(i).equals("土")) {yukchin.add("편재");jaesung++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("편관");gwansung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("편관");gwansung++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("편인");insung++;}
 				}
 				// '금'의 경우,
-				else if (element_lst.get(0).equals("金")) {
+				else if (element_lst.get(0).equals("金")) {
 					if (element_lst.get(i).equals("水")) {yukchin.add("식신");siksang++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("편재");jaesung++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("편관");gwansung++;}
@@ -209,7 +209,7 @@ public class GapJa_YukChin {
 				}
 				// '토'의 경우,
 				else if (element_lst.get(0).equals("土")) {
-					if (element_lst.get(i).equals("金")) {yukchin.add("식신");siksang++;}
+					if (element_lst.get(i).equals("金")) {yukchin.add("식신");siksang++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("편재");jaesung++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("편관");gwansung++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("편인");insung++;}
@@ -220,7 +220,7 @@ public class GapJa_YukChin {
 				// '화'의 경우,
 				if (element_lst.get(0).equals("火")) {
 					if (element_lst.get(i).equals("土")) {yukchin.add("상관");siksang++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("정재");jaesung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("정재");jaesung++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("정관");gwansung++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("정인");insung++;}
 				}
@@ -229,17 +229,17 @@ public class GapJa_YukChin {
 					if (element_lst.get(i).equals("木")) {yukchin.add("상관");siksang++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("정재");jaesung++;}
 					else if (element_lst.get(i).equals("土")) {yukchin.add("정관");gwansung++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("정인");insung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("정인");insung++;}
 				}
 				// '목'의 경우,
 				else if (element_lst.get(0).equals("木")) {
 					if (element_lst.get(i).equals("火")) {yukchin.add("상관");siksang++;}
 					else if (element_lst.get(i).equals("土")) {yukchin.add("정재");jaesung++;}
-					else if (element_lst.get(i).equals("金")) {yukchin.add("정관");gwansung++;}
+					else if (element_lst.get(i).equals("金")) {yukchin.add("정관");gwansung++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("정인");insung++;}
 				}
 				// '금'의 경우,
-				else if (element_lst.get(0).equals("金")) {
+				else if (element_lst.get(0).equals("金")) {
 					if (element_lst.get(i).equals("水")) {yukchin.add("상관");siksang++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("정재");jaesung++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("정관");gwansung++;}
@@ -247,7 +247,7 @@ public class GapJa_YukChin {
 				}
 				// '토'의 경우,
 				else if (element_lst.get(0).equals("土")) {
-					if (element_lst.get(i).equals("金")) {yukchin.add("상관");siksang++;}
+					if (element_lst.get(i).equals("金")) {yukchin.add("상관");siksang++;}
 					else if (element_lst.get(i).equals("水")) {yukchin.add("정재");jaesung++;}
 					else if (element_lst.get(i).equals("木")) {yukchin.add("정관");gwansung++;}
 					else if (element_lst.get(i).equals("火")) {yukchin.add("정인");insung++;}

@@ -5,9 +5,10 @@ import java.util.Calendar;
 
 public class TwelfthSinSal {
 
-	private GapJa gapja;
+	
 
 		public static void Sal() {
+		
 			String belt = GapJa.getYunji();
 			
 			String siji = GapJa.getSiji();
@@ -31,6 +32,8 @@ public class TwelfthSinSal {
 			}	
 			
 			ArrayList<String> sal = new ArrayList<>();
+			
+			try {
 			
 			for (int i = 0; i<5; i++) {
 			if (belt.equals("인") || belt.equals("오") || belt.equals("술")) {
@@ -70,9 +73,15 @@ public class TwelfthSinSal {
 				}
 			}
 		}
+			} catch (NullPointerException e) {
+				e.printStackTrace();
+			}
 			
-			
+			try {
 			System.out.print(sal.get(0) + "\t" + sal.get(1) + "\t" + sal.get(2) + "\t" + sal.get(3));
+			} catch (IndexOutOfBoundsException e) {
+				e.printStackTrace();
+			}
 			System.out.println();
 			System.out.println("올해 신살: *" + sal.get(4)+"*");
 			
