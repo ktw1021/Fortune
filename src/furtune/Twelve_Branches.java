@@ -42,7 +42,7 @@ public class Twelve_Branches {
 		
 		for (int i = 0; i<4; i++) {
 			// 천간이 갑일 경우,
-			if (arr.get(i).equals("갑")) {
+			if (arr.get(1).equals("갑")) {
 				if (arr.get(i+4).equals("인")) {	result.add("건록");}	
 				else if (arr.get(i+4).equals("묘")) {result.add("제왕");}
 				else if (arr.get(i+4).equals("진")) {result.add("쇠");}	
@@ -56,7 +56,7 @@ public class Twelve_Branches {
 				else if (arr.get(i+4).equals("자")) {result.add("목욕");}
 				else if (arr.get(i+4).equals("축")) {result.add("관대");}
 			}	// 천간이 을인 경우,
-			else if (arr.get(i).equals("을")) {
+			else if (arr.get(1).equals("을")) {
 				if (arr.get(i+4).equals("인")) {	result.add("제왕");}	
 				else if (arr.get(i+4).equals("묘")) {result.add("건록");}
 				else if (arr.get(i+4).equals("진")) {result.add("관대");}	
@@ -70,7 +70,7 @@ public class Twelve_Branches {
 				else if (arr.get(i+4).equals("자")) {result.add("병");}
 				else if (arr.get(i+4).equals("축")) {result.add("쇠");}
 			}	// 천간이 병, 정인 경우,
-			else if (arr.get(i).equals("병") || arr.get(i).equals("정")) {
+			else if (arr.get(1).equals("병") || arr.get(i).equals("정")) {
 				if (arr.get(i+4).equals("인")) {	result.add("장생");}	
 				else if (arr.get(i+4).equals("묘")) {result.add("목욕");}
 				else if (arr.get(i+4).equals("진")) {result.add("관대");}	
@@ -84,7 +84,7 @@ public class Twelve_Branches {
 				else if (arr.get(i+4).equals("자")) {result.add("태");}
 				else if (arr.get(i+4).equals("축")) {result.add("양");}
 			}	// 천간이 무, 기인 경우,
-			else if (arr.get(i).equals("무") || arr.get(i).equals("기")) {
+			else if (arr.get(1).equals("무") || arr.get(i).equals("기")) {
 				if (arr.get(i+4).equals("인")) {	result.add("사");}	
 				else if (arr.get(i+4).equals("묘")) {result.add("병");}
 				else if (arr.get(i+4).equals("진")) {result.add("쇠");}	
@@ -98,7 +98,7 @@ public class Twelve_Branches {
 				else if (arr.get(i+4).equals("자")) {result.add("절");}
 				else if (arr.get(i+4).equals("축")) {result.add("묘");}
 			}	// 천간이 경인 경우,
-			else if (arr.get(i).equals("경")) {
+			else if (arr.get(1).equals("경")) {
 				if (arr.get(i+4).equals("인")) {	result.add("절");}	
 				else if (arr.get(i+4).equals("묘")) {result.add("태");}
 				else if (arr.get(i+4).equals("진")) {result.add("양");}	
@@ -112,7 +112,7 @@ public class Twelve_Branches {
 				else if (arr.get(i+4).equals("자")) {result.add("사");}
 				else if (arr.get(i+4).equals("축")) {result.add("묘");}
 			}	// 천간이 신인 경우,
-			else if (arr.get(i).equals("신")) {
+			else if (arr.get(1).equals("신")) {
 				if (arr.get(i+4).equals("인")) {	result.add("태");}	
 				else if (arr.get(i+4).equals("묘")) {result.add("절");}
 				else if (arr.get(i+4).equals("진")) {result.add("묘");}	
@@ -126,7 +126,7 @@ public class Twelve_Branches {
 				else if (arr.get(i+4).equals("자")) {result.add("장생");}
 				else if (arr.get(i+4).equals("축")) {result.add("양");}
 			}	// 천간이 임인 경우,
-			else if (arr.get(i).equals("임")) {
+			else if (arr.get(1).equals("임")) {
 				if (arr.get(i+4).equals("인")) {	result.add("병");}	
 				else if (arr.get(i+4).equals("묘")) {result.add("사");}
 				else if (arr.get(i+4).equals("진")) {result.add("묘");}	
@@ -140,7 +140,7 @@ public class Twelve_Branches {
 				else if (arr.get(i+4).equals("자")) {result.add("제왕");}
 				else if (arr.get(i+4).equals("축")) {result.add("쇠");}
 			}	// 천간이 계인 경우,
-			else if (arr.get(i).equals("계")) {
+			else if (arr.get(1).equals("계")) {
 				if (arr.get(i+4).equals("인")) {	result.add("목욕");}	
 				else if (arr.get(i+4).equals("묘")) {result.add("장생");}
 				else if (arr.get(i+4).equals("진")) {result.add("양");}	
